@@ -265,7 +265,7 @@ create_nodes = function(source_items, state, level)
 
     local nodeData = {
       id = item.id,
-      name = item.name,
+      name = "hi" .. item.name,
       type = item.type,
       loaded = item.loaded,
       filtered_by = item.filtered_by,
